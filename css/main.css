@@ -1,0 +1,121 @@
+/***************************************
+GENERAL
+****************************************/
+
+body {
+  margin: 6% 6%;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+p { 
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px; 
+	-webkit-font-smoothing: antialiased; 
+	/*width: 360px; */
+	padding: 0 0 0 170px; 
+	position: relative; 
+	text-align: left;
+	max-width: 767px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.welcome {
+  display: block;
+  margin: auto;
+  max-width: 70%;
+}
+
+.bio{
+  max-width: 400px;
+}
+
+/***************************************
+HEADING
+****************************************/
+
+header {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-size: 70%;
+  font-weight: 300;
+}
+
+
+/***************************************
+NAVIGATION
+****************************************/
+
+nav {
+  text-align: center;
+  padding: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* confusing! */
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  padding: 10px;
+  font-size: 80%;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #bfbfbf;
+  /*font-weight: 600;*/
+  /*border-bottom: 2px solid #d6d6d6;*/
+}
+
+/***************************************
+FOOTER
+****************************************/
+
+footer {
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 5px;
+}
